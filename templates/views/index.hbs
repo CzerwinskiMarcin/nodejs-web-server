@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather app</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+{{> header }}
+{{> navigation }}
+<h2> {{ title }} </h2>
+
+<form autocomplete="on" method="get" name="weather_form" id="weather_form">
+    <label for="location">Location</label>
+    <input id="location" name="location" type="text">
+    <br/>
+    <button onclick="getData()">Submit</button>
+</form>
+
+<div id="result_container">
+
+    <div id="weather_result"></div>
+</div>
+</body>
+</html>

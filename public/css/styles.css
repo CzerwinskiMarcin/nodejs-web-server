@@ -1,0 +1,22 @@
+body {
+    margin: 1rem 3rem;
+}
+
+.navigation-container {
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-start;
+
+    list-style: none;
+}
+
+.navigation-link {
+    margin: .5rem 1rem;
+}
+
+.navigation-link:hover {
+    cursor: pointer;
+    color: deepskyblue;
+}
